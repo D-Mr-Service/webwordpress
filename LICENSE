@@ -1,0 +1,19 @@
+
+# 使用日志记录器记录日志
+# logger.debug("This is a debug message")
+# logger.info("This is an info message")
+# logger.warning("This is a warning message")
+# logger.error("This is an error message")
+# logger.critical("This is a critical message")
+
+
+#导入关闭浏览器的函数
+#check_and_close_browser
+#导入点击打开网页编辑器的函数
+#page_title_action
+#导入输入标题的函数
+#Article_title_input
+#判断网页编辑器是否展示
+#je
+#日志
+# setup_logging

@@ -1,0 +1,30 @@
+进入目录
+cd C:\ALL\Code\python\wordpress
+创建虚拟环境
+python -m venv wordpress
+
+打开虚拟环境
+.\wordpress\Scripts\activate
+
+
+依赖下载
+pip install -r requirements.txt
+
+推出虚拟环境
+deactivate
+
+ctrl + shift + p 
+选择 Python: Select Interpreter
+enter interpreter path 
+find
+选择 scripts 目录下的python.exe
+请求地址
+pip install requests
+
+浏览器
+pip install selenium  
+pip install webdriver_manager
+
+pip install simplejson
+pip install selenium beautifulsoup4
+
