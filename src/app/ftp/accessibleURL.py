@@ -3,7 +3,7 @@ import requests
 import urllib3
 from urllib.parse import urlparse
 from src.app import setup_logger
-
+from ..net.network import is_connected
 logger = setup_logger()
 # 禁用SSL警告（生产环境请配置有效证书）
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

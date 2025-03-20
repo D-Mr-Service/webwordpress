@@ -1,6 +1,6 @@
 import requests
 
-from src.app import setup_logger
+from src.app.logs.log import setup_logger
 
 logger = setup_logger()
 def call_link_ai(api_key, app_code, web_url):
@@ -31,6 +31,7 @@ def call_link_ai(api_key, app_code, web_url):
         reply = response.json().get("choices")[0]['message']['content']
         logger.info("ai返回结构成功")
         logger.info(reply)
+        # print(reply)
         return reply
     else:
         error = response.json().get("error", {})
